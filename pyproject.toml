@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oasis-core"
+version = "0.3.0"
+requires-python = ">=3.10"
+dependencies = [
+  "torch==2.10.0", "torchvision==0.25.0",
+  "transformers==4.57.0", "peft==0.17.1", "accelerate==1.7.0",
+  "pillow>=11,<13", "safetensors>=0.5,<0.8", "numpy>=1.26,<3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+oasis-train = "oasis.training:main"
+oasis-score = "oasis.inference:main"
+oasis-export = "oasis.export:main"
+oasis-iqa-train = "oasis.experiments.iqa_train:main"
+oasis-iqa = "oasis.experiments.iqa:main"
+oasis-mt61-test = "oasis.experiments.mt61:main"
+oasis-downstream = "oasis.experiments.downstream:main"
+oasis-data = "oasis.dataset:main"

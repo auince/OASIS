@@ -1,0 +1,41 @@
+{
+  "token_ids": [
+    40530,
+    19964,
+    14396,
+    24456,
+    15908,
+    52431,
+    21789,
+    28485,
+    60993,
+    36054,
+    85182
+  ],
+  "codebook": [
+    " dull",
+    "Generic",
+    " plain",
+    " dominant",
+    " formal",
+    " NORMAL",
+    " trusted",
+    " neat",
+    " GREAT",
+    " satisfying",
+    " captivating"
+  ],
+  "score_order": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ]
+}

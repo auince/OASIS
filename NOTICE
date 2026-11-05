@@ -1,0 +1,4 @@
+Model interfaces in this repository target Qwen3-VL-8B-Instruct by the Qwen team.
+Upstream: https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct
+Upstream license: Apache License 2.0; see licenses/Qwen3-VL-LICENSE.
+Model weights, tokenizer, processor, and chat-template components are obtained separately.
