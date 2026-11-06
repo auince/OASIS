@@ -11,7 +11,7 @@ OASIS predicts continuous image-quality scores from natural-language dimension d
 | MD61 annotations and image index | |
 | OASIS model weights | |
 
-MD61 includes annotations, image indices, and dimension definitions. Image files are obtained separately from their source datasets.
+MD61 includes annotations, image indices, and dimension definitions. Due to redistribution restrictions on the source datasets, we provide only indices for the images. Image files are obtained separately from their source datasets.
 
 ## Installation
 
