@@ -6,10 +6,10 @@ OASIS predicts continuous image-quality scores from natural-language dimension d
 
 ## Downloads
 
-| Resource | Download link |
-| --- | --- |
-| MD61 annotations and image index | |
-| OASIS model weights | |
+| Resource | Baidu Netdisk | Extraction code |
+| --- | --- | --- |
+| MD61 annotations and image index | [MD61.zip](https://pan.baidu.com/s/1LPc9knROOfbwUPfmeLftdA?pwd=xxqu) | `xxqu` |
+| OASIS model weights | [oasis-score.zip](https://pan.baidu.com/s/1BTW59k8MZ-SIm5qBEeHPgg?pwd=i28u) | `i28u` |
 
 MD61 includes annotations, image indices, and dimension definitions. Due to redistribution restrictions on the source datasets, we provide only indices for the images. Image files are obtained separately from their source datasets.
 
